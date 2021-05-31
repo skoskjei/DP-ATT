@@ -12,3 +12,5 @@ opencv-python
 requests
 pyyaml
 scikit-image
+torchsummary
+omegaconf

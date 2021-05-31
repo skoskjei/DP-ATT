@@ -26,6 +26,8 @@ setup(
         "scikit-image",
         "addict",
         "albumentations",
-        "face_detection>=0.2.0"
+        "face_detection>=0.2.0",
+        "torchsummary",
+        "omegaconf"
     ]
 )
