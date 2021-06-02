@@ -1,8 +1,8 @@
 # DP-ATT
 
-DP-ATT combines [*"DeepPrivacy
-"*](https://github.com/hukkelas/DeepPrivacy)  with [*"AttGAN
-"*](https://github.com/elvisyjlin/AttGAN-PyTorch) to preserve gender and age in de-identfied CCTV footage. It also includes a model for changing skin tone to dark(light.
+DP-ATT combines [*DeepPrivacy
+*](https://github.com/hukkelas/DeepPrivacy)  with [*AttGAN
+*](https://github.com/elvisyjlin/AttGAN-PyTorch) to preserve gender and age in de-identfied CCTV footage. It also includes a model for changing skin tone to dark(light.
 
 
 ## Installation
@@ -32,7 +32,7 @@ docker build -t deep_privacy .
 ```
 ## Models
 
-For gender and age estimation we have used [*"Age and Gender Estimation"*](https://github.com/yu4u/age-gender-estimation). 
+For gender and age estimation we have used [*Age and Gender Estimation*](https://github.com/yu4u/age-gender-estimation). 
 Download the pre-trained weights into the folder age_and_gender_estimation.
 
 For AttGAN it is possible to use two separate models, one with only gender and age ([*DP-ATT*](https://drive.google.com/file/d/12EgVJlQ-btiMRWkPdqXHbAdSf9Tr8bFl/view)) and one with gender, age and skin tone ([*DP-ATT-S*](https://drive.google.com/file/d/1kVwggjaS6FdOg8hBgMkg9m7hbz86UwrW/view)). 
