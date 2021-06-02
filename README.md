@@ -34,7 +34,7 @@ For gender and age estimation we have used [Age and Gender Estimation](https://g
 Download the pre-trained weights into the folder age_and_gender_estimation.
 
 For AttGAN it is possible to use two separate models, one with only gender and age ([DP-ATT](https://drive.google.com/file/d/12EgVJlQ-btiMRWkPdqXHbAdSf9Tr8bFl/view)) and one with gender, age and skin tone ([DP-ATT-S](https://drive.google.com/file/d/1kVwggjaS6FdOg8hBgMkg9m7hbz86UwrW/view)). 
-The trained models should be placed in a folder named 'output', inside the folder 'attgan'. Instead of using L1 for reconstruction loss, we use [MS-SSIM_L1_LOSS](https://github.com/psyrocloud/MS-SSIM_L1_LOSS)
+The trained models should be placed in a folder named 'output', inside the folder 'attgan'. Instead of using L1 for reconstruction loss, we use [MS-SSIM_L1_LOSS](https://github.com/psyrocloud/MS-SSIM_L1_LOSS).
 
 ## Usage
 ```
