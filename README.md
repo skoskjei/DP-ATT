@@ -1,8 +1,6 @@
 # DP-ATT
 
-DP-ATT combines [*DeepPrivacy
-*](https://github.com/hukkelas/DeepPrivacy)  with [*AttGAN
-*](https://github.com/elvisyjlin/AttGAN-PyTorch) to preserve gender and age in de-identfied CCTV footage. It also includes a model for changing skin tone to dark(light.
+DP-ATT combines [*DeepPrivacy*](https://github.com/hukkelas/DeepPrivacy)  with [*AttGAN*](https://github.com/elvisyjlin/AttGAN-PyTorch) to preserve gender and age in de-identfied CCTV footage. It also includes a model for changing skin tone to dark(light.
 
 
 ## Installation
@@ -58,7 +56,7 @@ Code under [deep_privacy/detection](deep_privacy/detection):
 - Mask R-CNN implementation is taken from Pytorch source code at [pytorch.org](https://pytorch.org/docs/master/torchvision/models.html#object-detection-instance-segmentation-and-person-keypoint-detection)
 - FID calculation code is taken from the official tensorflow implementation: [https://github.com/bioinf-jku/TTUR](https://github.com/bioinf-jku/TTUR)
 
-The IMDB-WIKI dataset used in [*"Age and Gender Estimation"*](https://github.com/yu4u/age-gender-estimation) is originally provided under the [*following conditions*](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/).
+The IMDB-WIKI dataset used in [*Age and Gender Estimation*](https://github.com/yu4u/age-gender-estimation) is originally provided under the [*following conditions*](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/).
 
 
 
