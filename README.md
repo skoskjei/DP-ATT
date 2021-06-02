@@ -5,7 +5,7 @@ DP-ATT combines [*DeepPrivacy*](https://github.com/hukkelas/DeepPrivacy)  with [
 
 ## Installation
 Install the following: 
-- Pytorch  >= 1.7.0 (Some checkpoints requires a bug fix from pytorch 1.7 - the current master branch)
+- Pytorch  >= 1.7.0
 - Torchvision >= 0.6.0
 - NVIDIA Apex (If you want to train any models - nolt needed for inference)
 - Python >= 3.6
