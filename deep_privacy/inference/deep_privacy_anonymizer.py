@@ -52,7 +52,7 @@ class DeepPrivacyAnonymizer(Anonymizer):
         self.attgan_model.load(find_model(join('attgan/output', experiment_name, 'checkpoint'), checkpoint))
         self.attgan_model.eval()
             
-        weight_file = 'age_and_gender_estimation/pretrained_models/EfficientNetB3_224_weights.11-3.44.hdf5'
+        weight_file = 'age_and_gender_estimation/EfficientNetB3_224_weights.11-3.44.hdf5'
         model_name, img_size = pathlib.Path(weight_file).stem.split("_")[:2]
         self.age_gender_cfg = OmegaConf.from_dotlist([f"model.model_name={model_name}", f"model.img_size={img_size}"])
         self.age_and_gender_model = get_model(self.age_gender_cfg)
