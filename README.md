@@ -35,14 +35,14 @@ docker build -t deep_privacy .
 For gender and age estimation we have used [*"Age and Gender Estimation"*](https://github.com/yu4u/age-gender-estimation). 
 Download the pre-trained weights into the folder age_and_gender_estimation.
 
-For AttGAN it is possible to use two separate models, one with only gender and age ([*"DP-ATT"*](https://drive.google.com/file/d/12EgVJlQ-btiMRWkPdqXHbAdSf9Tr8bFl/view)) and one with gender, age and skin tone ([*"DP-ATT-S"*](https://drive.google.com/file/d/1kVwggjaS6FdOg8hBgMkg9m7hbz86UwrW/view)). 
+For AttGAN it is possible to use two separate models, one with only gender and age ([*DP-ATT*](https://drive.google.com/file/d/12EgVJlQ-btiMRWkPdqXHbAdSf9Tr8bFl/view)) and one with gender, age and skin tone ([*DP-ATT-S*](https://drive.google.com/file/d/1kVwggjaS6FdOg8hBgMkg9m7hbz86UwrW/view)). 
 The trained models should be placed in a folder named 'output', inside the folder 'attgan'.
 
 ## Usage
 ```
 python3 anonymize.py -s input_image.png -t output_path.png --experiment_name experiment_name --checkpoint checkpoint
 ```
-You can change the model with the "-m" or "--model" flag [*"see model zoo"*](https://github.com/hukkelas/DeepPrivacy).
+You can change the model with the "-m" or "--model" flag [*see model zoo*](https://github.com/hukkelas/DeepPrivacy).
 The cli accepts image files, video files, and directories.
 
 The cli is also available outside the folder `python -m deep_privacy.cli`.
@@ -58,7 +58,7 @@ Code under [deep_privacy/detection](deep_privacy/detection):
 - Mask R-CNN implementation is taken from Pytorch source code at [pytorch.org](https://pytorch.org/docs/master/torchvision/models.html#object-detection-instance-segmentation-and-person-keypoint-detection)
 - FID calculation code is taken from the official tensorflow implementation: [https://github.com/bioinf-jku/TTUR](https://github.com/bioinf-jku/TTUR)
 
-The IMDB-WIKI dataset used in [*"Age and Gender Estimation"*](https://github.com/yu4u/age-gender-estimation) is originally provided under the [*"following conditions"*](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/).
+The IMDB-WIKI dataset used in [*"Age and Gender Estimation"*](https://github.com/yu4u/age-gender-estimation) is originally provided under the [*following conditions*](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/).
 
 
 
