@@ -42,6 +42,7 @@ python3 anonymize.py -s input_image.png -t output_path.png --experiment_name exp
 ```
 You can change the model with the "-m" or "--model" flag [see model zoo](https://github.com/hukkelas/DeepPrivacy).
 The cli accepts image files, video files, and directories.
+For DP-ATT-S one must add an additional argument --skin followed by an integer. Dark skin tone is 1, Light skin tone is -1. 
 
 The cli is also available outside the folder `python -m deep_privacy.cli`.
 
